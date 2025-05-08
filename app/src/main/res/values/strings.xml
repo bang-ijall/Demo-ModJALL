@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ModJALL</string>
+    <string name="close">Close</string>
+    <string name="dashboard_list">Launch game with us</string>
+    <string name="dashboard_empty">No mod available</string>
+    <string name="dashboard_provider">Provider: None</string>
+    <string name="dashboard_access">Access: Not available</string>
+    <string name="dashboard_root">Root status</string>
+    <string name="dashboard_version">Android version:</string>
+    <string name="dashboard_device">Device:</string>
+    <string name="dashboard_system">System</string>
+    <string name="dashboard_summary">Summary</string>
+    <string name="login_token">Get free token</string>
+    <string name="login_login">Login</string>
+    <string name="login_remember">Keep me logged in</string>
+    <string name="login_et_token">Demo-ModJALL</string>
+    <string name="login_textField">Token</string>
+    <string name="login_title">Increase your game experience with ModJALL</string>
+    <string name="mod_package">com.jall.mod.demo</string>
+    <string name="mod_name">Demo ModJALL</string>
+    <string name="mod_version">demo (2)</string>
+    <string name="item_logout">Logout</string>
+</resources>
