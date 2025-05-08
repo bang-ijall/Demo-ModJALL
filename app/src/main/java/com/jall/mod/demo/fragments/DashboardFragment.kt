@@ -150,12 +150,12 @@ class DashboardFragment : Fragment() {
             val icon = appInfo.loadIcon(pm)
             val packageInfo = pm.getPackageInfo(packageName, 0)
 
-            val version = "${packageInfo.versionName} ${if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            val version = "${packageInfo.versionName} (${if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
                 packageInfo.longVersionCode
             } else {
                 @Suppress("DEPRECATION")
                 packageInfo.versionCode.toLong()
-            }}"
+            }})"
 
             apps.add(ModData(icon, packageName, appName, version))
         }
